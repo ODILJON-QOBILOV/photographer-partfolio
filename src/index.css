@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:opsz@6..12&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --absolute-white: #fff;
+  --absolute-black: #000;
+  --purple-55: #4a2ced;
+  --purple-60: #5e43ef;
+  --purple-70: #8672f3;
+  --purple-80: #aea1f7;
+  --purple-90: #d6d0fb;
+  --purple-95: #eae7fd;
+  --purple-97: #f3f1fe;
+  --purple-99: #fbfaff;
+  --dark-03: #070708;
+  --dark-06: #0e0e10;
+  --dark-08: #131316;
+  --dark-12: #1c1c21;
+  --dark-15: #232329;
+  --dark-20: #2f2f37;
+  --dark-25: #3b3b45;
+  --dark-30: #474752;
+  --grey-40: #62646c;
+  --grey-50: #797c86;
+  --grey-70: #afb0b6;
+  --grey-80: #cacace;
+  --grey-90: #e4e4e6;
+  --grey-95: #f2f2f3;
+  --grey-97: #f7f7f8;
+  --grey-99: #fcfcfd;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+button {
+  transition: 0.3s all ease-out;
+}
+
+button:hover {
+  color: #0d0d0d;
+  background: #d7d5d5;
+  cursor: pointer;
+}

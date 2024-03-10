@@ -1,0 +1,25 @@
+.section_1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family:  Poppins;
+  img {
+    width: 100%;
+  }
+}
+
+.section_1 img:first-child {
+  height: 680px;
+  margin: 50px 0 150px;
+}
+
+.section_1 div {
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--grey-50);
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,128 @@
+.box {
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 0 162px;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--dark-12);
+  padding-bottom: 50px;
+  p {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--grey-50);
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 58px;
+    text-transform: uppercase;
+    color: var(--absolute-white);
+  }
+  button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--absolute-white);
+    border-radius: 10px;
+    padding: 16px 24px;
+    width: 163px;
+    height: 59px;
+    border: none;
+    background: var(--dark-12);
+  }
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.right {
+  border-radius: 20px;
+  border: 1px solid var(--dark-12);
+  padding: 40px;
+  padding: 40px;
+  width: 783px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.secStart {
+  border-bottom: 1px solid var(--dark-12);
+  padding-bottom: 40px;
+  h3 {
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--grey-80);
+  }
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--grey-70);
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--grey-90);
+  }
+  b {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--grey-70);
+  }
+}
+
+.secEnd {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h3 {
+    display: flex;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--grey-80);
+  }
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  button {
+    border-radius: 10px;
+    padding: 18px 34px;
+    width: 213px;
+    height: 63px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--absolute-white);
+    background: #171717;
+    border: none;
+  }
+}

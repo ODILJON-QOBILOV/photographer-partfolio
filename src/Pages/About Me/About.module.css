@@ -1,0 +1,31 @@
+.section_1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  padding: 30px 0;
+  font-family: Poppins;
+  padding: 50px 100px;
+}
+
+.section_1 {
+  .content {
+    border-top: 1px solid var(--dark-12);
+    border-bottom: 1px solid var(--dark-12);
+    padding: 100px 0;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: var(--grey-50);
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--grey-50);
+    width: 1500px;
+  }
+}
